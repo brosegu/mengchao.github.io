@@ -1,0 +1,1 @@
+var loadHtml = function (url, callback) {	var pro = url.substr(0, 4);	setTimeout(function () {		callback(url, pro);	}, 3000);}loadHtml("http://www.baidu.com", function (str, pro) {	console.log(str, "协议是：" + pro);});

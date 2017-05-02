@@ -1,0 +1,49 @@
+@charset "utf-8";
+//定位
+.ex-pos-relative {
+  position: relative;
+}
+.ex-pos-absolute {
+  position: absolute;
+}
+.ex-pos-fixed {
+  position: fixed;
+}
+
+//浮动
+.ex-fl-left {
+  float: left;
+}
+
+.ex-fl-right {
+  float: right;
+}
+
+//超出部分省略
+.ex-txt-over-ell {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+//显示隐藏
+.ex-display {
+  display: block;
+}
+
+.ex-undisplay {
+  display: none;
+}
+
+.ex-visible {
+  visibility: visible;
+}
+
+.ex-hidden {
+  visibility: hidden;
+}
+//水平居中元素
+.ex-hori-enter{
+  margin-left: auto;
+  margin-right: auto;
+}

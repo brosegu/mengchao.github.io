@@ -1,0 +1,24 @@
+@charset "utf-8";
+a,a:hover,a:active,a:visited,a:link {
+  text-decoration: none;
+  outline: 0;
+}
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input, button, textarea, select {
+  *font-size: 100%;
+  border: 0;
+  outline: 0;
+}
+ol, ul {
+  list-style: none;
+  padding: 0;
+}
+.clearfix:after {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  display: block;
+  visibility: hidden;
+  content: "."
+}
