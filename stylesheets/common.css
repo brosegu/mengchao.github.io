@@ -1,0 +1,130 @@
+/* line 2, ../sass/helper/_reset.scss */
+a, a:hover, a:active, a:visited, a:link {
+  text-decoration: none;
+  outline: 0;
+}
+
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+/* line 8, ../sass/helper/_reset.scss */
+input, button, textarea, select {
+  *font-size: 100%;
+  border: 0;
+  outline: 0;
+}
+
+/* line 13, ../sass/helper/_reset.scss */
+ol, ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 17, ../sass/helper/_reset.scss */
+.clearfix:after {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  display: block;
+  visibility: hidden;
+  content: ".";
+}
+
+/* line 3, ../sass/helper/_extend.scss */
+.ex-pos-relative {
+  position: relative;
+}
+
+/* line 6, ../sass/helper/_extend.scss */
+.ex-pos-absolute {
+  position: absolute;
+}
+
+/* line 9, ../sass/helper/_extend.scss */
+.ex-pos-fixed {
+  position: fixed;
+}
+
+/* line 14, ../sass/helper/_extend.scss */
+.ex-fl-left {
+  float: left;
+}
+
+/* line 18, ../sass/helper/_extend.scss */
+.ex-fl-right {
+  float: right;
+}
+
+/* line 23, ../sass/helper/_extend.scss */
+.ex-txt-over-ell {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* line 30, ../sass/helper/_extend.scss */
+.ex-display {
+  display: block;
+}
+
+/* line 34, ../sass/helper/_extend.scss */
+.ex-undisplay {
+  display: none;
+}
+
+/* line 38, ../sass/helper/_extend.scss */
+.ex-visible {
+  visibility: visible;
+}
+
+/* line 42, ../sass/helper/_extend.scss */
+.ex-hidden {
+  visibility: hidden;
+}
+
+/* line 46, ../sass/helper/_extend.scss */
+.ex-hori-enter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 2, ../sass/layout/_header.scss */
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #428bca;
+}
+/* line 5, ../sass/layout/_header.scss */
+header ul {
+  font-size: 0;
+}
+/* line 8, ../sass/layout/_header.scss */
+header li {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  line-height: 70px;
+  line-height: 70px \9 ;
+  line-height: 70px \0 ;
+  text-align: center;
+}
+/* line 13, ../sass/layout/_header.scss */
+header a {
+  display: block;
+  height: 70px;
+  padding: 0 24px;
+  font-size: 22px;
+  color: #fff;
+}
+/* line 20, ../sass/layout/_header.scss */
+header a:hover {
+  background-color: #4078c0;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 6, ../sass/common.scss */
+body {
+  min-width: 1350px !important;
+}
