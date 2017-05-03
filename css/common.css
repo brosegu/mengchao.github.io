@@ -1,1 +1,179 @@
-
+/* line 5, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/helper/_extend.scss */
+.ex-pos-relative {
+  position: relative;
+}
+
+/* line 6, ../sass/helper/_extend.scss */
+.ex-pos-absolute {
+  position: absolute;
+}
+
+/* line 9, ../sass/helper/_extend.scss */
+.ex-pos-fixed {
+  position: fixed;
+}
+
+/* line 14, ../sass/helper/_extend.scss */
+.ex-fl-left {
+  float: left;
+}
+
+/* line 18, ../sass/helper/_extend.scss */
+.ex-fl-right {
+  float: right;
+}
+
+/* line 23, ../sass/helper/_extend.scss */
+.ex-txt-over-ell {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* line 30, ../sass/helper/_extend.scss */
+.ex-display {
+  display: block;
+}
+
+/* line 34, ../sass/helper/_extend.scss */
+.ex-undisplay {
+  display: none;
+}
+
+/* line 38, ../sass/helper/_extend.scss */
+.ex-visible {
+  visibility: visible;
+}
+
+/* line 42, ../sass/helper/_extend.scss */
+.ex-hidden {
+  visibility: hidden;
+}
+
+/* line 46, ../sass/helper/_extend.scss */
+.ex-hori-enter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 3, ../sass/layout/_header.scss */
+.header {
+  background-color: #e7e7e7;
+}
+/* line 5, ../sass/layout/_header.scss */
+.header ul {
+  font-size: 0;
+}
+/* line 8, ../sass/layout/_header.scss */
+.header li {
+  line-height: 70px;
+  line-height: 70px \9 ;
+  line-height: 70px \0 ;
+  text-align: center;
+}
+/* line 12, ../sass/layout/_header.scss */
+.header a {
+  display: block;
+  font-size: 36px;
+  color: #000;
+}
+/* line 17, ../sass/layout/_header.scss */
+.header a:hover {
+  background-color: #4078c0;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 9, ../sass/common.scss */
+.screen-nav {
+  width: 100%;
+  height: auto;
+  max-width: 640px;
+}
+/* line 12, ../sass/common.scss */
+.screen-nav a {
+  display: block;
+  width: 100%;
+  height: 150px;
+}
+/* line 18, ../sass/common.scss */
+.screen-nav a:nth-child(0) {
+  background-color: #3399CC;
+}
+/* line 18, ../sass/common.scss */
+.screen-nav a:nth-child(1) {
+  background-color: #999999;
+}
+/* line 18, ../sass/common.scss */
+.screen-nav a:nth-child(2) {
+  background-color: #ABCDEF;
+}
+/* line 18, ../sass/common.scss */
+.screen-nav a:nth-child(3) {
+  background-color: #99CC33;
+}

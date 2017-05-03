@@ -1,34 +1,3 @@
-/* line 2, ../sass/helper/_reset.scss */
-a, a:hover, a:active, a:visited, a:link {
-  text-decoration: none;
-  outline: 0;
-}
-
-/*@purpose To enable resizing for IE */
-/*@branch For IE6-Win, IE7-Win */
-/* line 8, ../sass/helper/_reset.scss */
-input, button, textarea, select {
-  *font-size: 100%;
-  border: 0;
-  outline: 0;
-}
-
-/* line 13, ../sass/helper/_reset.scss */
-ol, ul {
-  list-style: none;
-  padding: 0;
-}
-
-/* line 17, ../sass/helper/_reset.scss */
-.clearfix:after {
-  clear: both;
-  height: 0;
-  overflow: hidden;
-  display: block;
-  visibility: hidden;
-  content: ".";
-}
-
 /* line 3, ../sass/helper/_extend.scss */
 .ex-pos-relative {
   position: relative;
@@ -122,9 +91,4 @@ header a:hover {
   background-color: #4078c0;
   color: #fff;
   text-decoration: none;
-}
-
-/* line 6, ../sass/common.scss */
-body {
-  min-width: 1350px !important;
 }
